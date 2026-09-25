@@ -22,7 +22,8 @@ export default function NavBar() {
       <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6">
         <NavLink to="/enti" className="flex items-center gap-2 text-white">
           <span className="text-2xl" aria-hidden="true">🏟️</span>
-          <span className="text-lg font-bold tracking-tight">Impianti sportivi in Puglia</span>
+          <span className="text-lg font-bold tracking-tight">Impianti sportivi in Puglia
+            Impianti sportivi2</span>
         </NavLink>
         <div className="flex flex-wrap gap-1">
           {links.map((link) => (
